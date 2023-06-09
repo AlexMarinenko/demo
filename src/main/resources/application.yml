@@ -1,0 +1,10 @@
+idm-auth:
+  enabled: true
+  base-url: https://auth-dev.gmntc.com
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://auth-dev.gmntc.com
